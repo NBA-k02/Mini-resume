@@ -46,22 +46,5 @@
     <footer>
         <p>&copy; 2024 Бабушкина Надежда. Все права защищены.</p>
     </footer> 
-<script>
-        let modal = document.getElementById("modal");
-        let modalImg = document.getElementById("modal-img");
-        let close = document.getElementsByClassName("close")[0];
-        let images = document.querySelectorAll('img');
-    
-        images.forEach(function(image) {
-            image.onclick = function() {
-                modal.style.display = "flex";
-                modalImg.src = this.src;
-            }
-        });
-    
-        close.onclick = function() {
-            modal.style.display = "none";
-        }
-    </script>
 </body>
 </html>
