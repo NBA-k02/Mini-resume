@@ -1,5 +1,8 @@
 /* Телефон (1 колонка) */
 @media (max-width: 400px) {
+    .acquaintance {
+        width: 200px;
+        height: 300px;}
     main {
         grid-template-columns: 1fr;
         justify-items: center;
