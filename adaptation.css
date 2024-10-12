@@ -4,6 +4,12 @@
         grid-template-columns: 1fr;
         justify-items: center;
     }
+    .content {
+        width: 250px;
+        height: 550px;}
+    .content_olymp {
+        width: 250px;
+        height: 550px;}
     h1 {
         font-size: 1em;
     }
