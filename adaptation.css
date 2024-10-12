@@ -1,4 +1,4 @@
-/* Для телефонов (одна колонка) */
+/* Телефон (1 колонка) */
 @media (max-width: 400px) {
     main {
         grid-template-columns: 1fr;
@@ -9,7 +9,7 @@
     }
 }
 
-/* Для телефонов (одна колонка) */
+/* Телефон (1 колонка) */
 @media (max-width: 600px) {
     main {
         grid-template-columns: 1fr;
@@ -20,7 +20,7 @@
     }
 }
 
-/* Для планшетов (две колонки) */
+/* Планшет (2 колонки) */
 @media (min-width: 601px) and (max-width: 1024px) {
     main {
         grid-template-columns: repeat(2, 1fr);
@@ -31,10 +31,10 @@
     }
 }
 
-/* Для ноутбуков (три колонки) */
+/* Ноутбук (2 колонки) */
 @media (min-width: 1025px) {
     main {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
     h1 {
