@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: bisque;
+}
+header{
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+}
+h3{
+    padding: 5px;
+}
+p{
+    padding: 5px;
+}
+.acquaintance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.my_photo{
+    width: 400px;
+    height: 500px;
+}
+.uni_photo{
+    width: 300px;
+    height: 300px;
+}
+.blocks{
+    background-color: green;
+    border: 5px solid black;
+    box-shadow: 0px 5px 19px 14px rgba(34, 60, 80, 0.2) inset;
+}
+.content{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    width: 300px;
+    height: 300px;
+}
+.olymp_photo_1,.olymp_photo_2{
+    width: 300px;
+    height: 400px;
+} 
+.content_olymp {  
+    display: grid;
+    padding: 20px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "ол ол"
+      "ф ф2";
+  }
+  .Олимпиада { grid-area: ол; }
+  .olymp_photo_1 { grid-area: ф; }
+  .olymp_photo_2 { grid-area: ф2; }
+  .contact{
+    padding: 20px;
+  }
+  footer{
+    padding-top: 30px;
+    text-align: center;
+  }
