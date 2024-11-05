@@ -34,7 +34,7 @@ p{
     height: 300px;
 }
 .blocks{
-    background-color: green;
+    background-color: #90e96d70;
     border: 5px solid black;
     box-shadow: 0px 5px 19px 14px rgba(34, 60, 80, 0.2) inset;
 }
